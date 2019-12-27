@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AmCom.Domain.Entities.Disciplina>
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title"> Disciplinas Disponíveis</h4>
+    </div>
+    <form asp-action="Create">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <input type="checkbox" data-id-usuario="@item.Id" /> @item.Descricao
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <button type="submit" class="btn btn-primary btn-round">Salvar</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+
+

@@ -1,0 +1,42 @@
+﻿
+@model AmCom.Domain.Entities.Disciplina
+
+<br />
+<h2>Disciplina</h2>
+<hr />
+
+<div class="card card-user">
+    <div class="card-header">
+        <h5 class="card-title">Cadastro de Disciplina</h5>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <div class="row">
+                <div class="col-md-2 pr-1">
+                    <div class="form-group">
+                        <label>Data Cadastro</label>
+                        <input asp-for="DataCadastro" class="form-control" />
+                    </div>
+                </div>
+                <div class="col-md-5 px-1">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input asp-for="Descricao" class="form-control" />
+                        <span asp-validation-for="Descricao" class="text-danger"></span>
+                    </div>
+                </div>               
+            </div>          
+            <div class="row">
+                <div>
+                    <button type="submit" class="btn btn-primary btn-round">Salvar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index">Retornar para Lista de Alunos</a>
+</div>
+

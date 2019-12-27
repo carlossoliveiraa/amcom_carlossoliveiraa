@@ -1,0 +1,45 @@
+﻿@model IEnumerable<AmCom.Domain.Entities.Disciplina>
+
+<br />
+<p>
+    <a asp-action="Create">Nova Disciplina</a>
+</p>
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title"> Disciplinas Cadastradas</h4>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table">
+                 
+                <th>
+                    Disciplina
+                </th>
+               
+                <th colspan="2" class="text-center">
+                    Ações
+                </th>
+                
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descricao)
+                            </td>
+                           
+                            <td>
+                                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+
+                                @Html.ActionLink("Deletar", "Delete", new { id = item.Id }, new { onclick = "return confirm('Deseja apagar este registro?');" })
+                                                               
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

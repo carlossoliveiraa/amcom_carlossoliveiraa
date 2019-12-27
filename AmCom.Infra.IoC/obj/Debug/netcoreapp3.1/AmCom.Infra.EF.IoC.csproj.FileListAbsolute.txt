@@ -1,0 +1,15 @@
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.deps.json
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.dll
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.pdb
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Application.dll
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Domain.dll
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Infra.Data.dll
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Application.pdb
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Infra.Data.pdb
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\bin\Debug\netcoreapp3.1\AmCom.Domain.pdb
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\obj\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.csprojAssemblyReference.cache
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\obj\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.AssemblyInfoInputs.cache
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\obj\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.AssemblyInfo.cs
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\obj\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.csproj.CopyComplete
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\obj\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.dll
+C:\Projetos\Amcom2\AmCom\AmCom.Infra.IoC\obj\Debug\netcoreapp3.1\AmCom.Infra.EF.IoC.pdb

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<AmCom.Domain.Entities.Aluno>
+
+<br />
+<p>
+    <a asp-action="Create">Novo Aluno</a>
+</p>
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title"> Alunos Cadastrados</h4>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table">
+                <thead class=" text-primary">
+                <th>
+                    Nome
+                </th>
+                <th>
+                    E-mail
+                </th>
+                <th>
+                    Cpf
+                </th>
+                <th>
+                    Aniversário
+                </th>
+                <th colspan="2" class="text-center">
+                    Ações
+                </th>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Cpf)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DtNascimento)
+                            </td>                            
+
+                            <td>
+                                @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+
+                                @Html.ActionLink("Deletar", "Delete", new { id = item.Id }, new { onclick = "return confirm('Deseja apagar este registro?');" })
+
+
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> 
+ 
